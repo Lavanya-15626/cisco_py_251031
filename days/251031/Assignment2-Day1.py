@@ -1,13 +1,14 @@
 
 Employees = []  
-
+class Employee:
+    def __init__(self,id,name,domain,salary):
+        self.id=id
+        self.name=name
+        self.domain=domain
+        self.salary=salary
+        
 def add_employee(id, name, domain, salary):
-    employee = {                 
-        "id": id,
-        "name": name,
-        "domain": domain,
-        "salary": salary
-    }                            
+    employee = Employee(id,name,domain,salary)                
     Employees.append(employee)
     print("Employee Added Successfully")
     print(Employees)
