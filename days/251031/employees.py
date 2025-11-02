@@ -5,23 +5,23 @@ def adding_employee(employee):
 def search_employee(id):
     I=0
     for i in employees:
-        if i[0]==id:
+        if i[0] == id:
             return I
         I+=1
     return -1
 def deleting_employee(id):
     index=search_employee(id)
-    if index!=-1:
+    if index != -1:
         employees.pop(index)
         print("Employee Deleted Successfully")
     else:
         print("Employee not found")
 def update_employee(id,salary):
     index=search_employee(id)
-    if index!=-1:
+    if index != -1:
         employee=employees[index]
         new_employee=(employee[0],employee[1],employee[2],salary)
-        employees[index]=new_employee
+        employees[index] = new_employee
         print("Employee details updated successfully")
     else:
         print('Employee not found')
