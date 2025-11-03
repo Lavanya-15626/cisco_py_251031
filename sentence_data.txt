@@ -1,2 +1,2 @@
 List:['I', 'am', 'Lavanya', 'I', 'am', 'good', 'girl']
-Tuple:('I', 'am', 'Lavanya', 'I', 'am', 'good', 'girl')
+Tuple:('I', 'AM', 'LAVANYA', 'I', 'AM', 'GOOD', 'GIRL')
