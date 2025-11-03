@@ -1,0 +1,2 @@
+list:['all', 'the', 'best', 'ra']
+tuple:('all', 'the', 'best', 'ra')
