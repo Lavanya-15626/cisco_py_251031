@@ -1,0 +1,2 @@
+List:['Anjali', 'Anjaneya', 'Durga', 'Kiran', 'Lavanya', 'Lucky', 'Sai', 'Satya']
+Tuple:('Anjali', 'Anjaneya', 'Durga', 'Kiran', 'Lavanya', 'Lucky', 'Sai', 'Satya')
