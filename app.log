@@ -1,0 +1,16 @@
+2025-11-04 12:00:37,333 [INFO] Employee not Exist
+2025-11-04 12:00:37,336 [INFO] Employee Added Successfully
+2025-11-04 12:01:13,354 [INFO] Employee Exist
+2025-11-04 12:14:47,877 [INFO] Employee not Exist
+2025-11-04 12:14:47,879 [DEBUG] Employee [id = 1003, name = Amul, job_title = Software Engineer, salary = 40000] added to list
+2025-11-04 12:14:47,884 [DEBUG] Employees written to the file
+2025-11-04 12:14:47,884 [INFO] Employee Added Successfully
+2025-11-04 12:15:56,631 [INFO] Employee not Exist
+2025-11-04 12:15:56,631 [DEBUG] Employee [id = , name = , job_title = , salary = ] added to list
+2025-11-04 12:15:56,634 [DEBUG] Employees written to the file
+2025-11-04 12:15:56,634 [INFO] Employee Added Successfully
+2025-11-04 12:21:15,149 [INFO] Employee Exist
+2025-11-04 13:44:37,074 [INFO] Employee not Exist
+2025-11-04 13:44:37,075 [DEBUG] Employee [id = 105, name = Durga, job_title = SAT, salary = 100000] added to list
+2025-11-04 13:44:37,075 [ERROR] Employee added failed write_employees() missing 1 required positional argument: 'employees'
+2025-11-04 13:48:17,978 [INFO] Employee Exist

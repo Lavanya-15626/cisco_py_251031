@@ -1,0 +1,37 @@
+import db_em as db
+
+employees = db.read_employees()  #employee is object of attr (id, name, job_title, salary)
+# list of objects -> save to file
+# read from file -> list of objs
+
+def add_employee(employee):
+    employees.append(employee)
+    db.write_employees(employees)
+    print('Employee Added Successfully')
+
+def search_employee(id): 
+    I = 0
+    for employee in employees: 
+        if employee.id == id:
+            return I
+        I += 1
+    return -1 
+ 
+def update_employee(id, salary):
+    index = search_employee(id)
+    if index != -1:
+        employee = employees[index]
+        employee.salary = salary
+        db.write_employees(employees)
+        print('Employee Updated Successfully')        
+    else: 
+        print('Employee Not Found.')
+
+def delete_employee(id):
+    index = search_employee(id) 
+    if index != -1:
+        employees.pop(index)
+        db.write_employees(employees)
+        print('Employee Deleted Successfully')
+    else: 
+        print('Employee Not Found.')
