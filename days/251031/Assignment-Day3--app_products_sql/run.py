@@ -17,7 +17,7 @@ Your Choice:'''
         name = input('Name:')
         description = input('Description:')
         price = input('Price:')
-        stock = input("Stock")
+        stock = input("Stock:")
         tags = input("Tags:")
         old_product = repo.search_product(id)
         if old_product:

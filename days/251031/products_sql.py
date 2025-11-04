@@ -40,5 +40,5 @@ session.commit()
 session.delete(wireless_bluetooth_headphones)
 session.commit()
 
-employees = session.query(Product).all()
-print(employees)
+products = session.query(Product).all()
+print(products)
